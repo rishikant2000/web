@@ -15,7 +15,6 @@ h1, h2{
 }
  
 .navbar-dark .navbar-brand {
-    /* color: #303030 !important; */
     font-family: 'Coda Caption', sans-serif;
 }
 .navbar-dark .navbar-brand span{
@@ -33,12 +32,7 @@ h1, h2{
 .text-primary{
 	color: #f150bf !important;
 }
-.bg-dark{
-	 /* background-color: #f1ad50 !important; */
-}
-header{
-  /* padding: 70px 0 100px; */
-} 
+
 .navbar .navbar-nav .nav-item .nav-link {
     color: #ffffff;
     font-size: 0.937rem;
@@ -170,9 +164,6 @@ header{
 .card-body p{
 	font-size:13px;
 }
-.price-card {
-    /* color: #fff; */
-}
 .bg-dark {
     background-color: #552882 !important;
 }
@@ -196,7 +187,7 @@ header{
     font-size: 14px; 
 	font-weight:bold;
 }
-}
+
 #services h4.h5 {
     text-transform: uppercase;
     font-size: 16px;
@@ -208,6 +199,3 @@ header{
     border-radius: 16px;
     font-size: 14px;
 } 
-#about {
-	background-color: #6a0dad;
-}
