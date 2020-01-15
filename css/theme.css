@@ -10,6 +10,7 @@ body {
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
+  background-color:  #6a0dad;
   color: #1b1e24;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -112,9 +113,7 @@ p.help-block li {
     list-style:none;
     color:red;
 }
-/*----------------------------------
-  Background Arrow
-------------------------------------*/
+
 .wt-bg-arrow-wrapper {
   position: relative;
 }
@@ -1245,8 +1244,6 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
-
-
 @media (min-width: 992px) {
   .wt-icon-block {
     border-bottom: solid 1px #e6e7e9;
@@ -1254,9 +1251,4 @@ ul.timeline > li:before {
   .wt-icon-block__col--left-brd {
     border-left: solid 1px #e6e7e9;
   }
-}
-
-
-body {
-	background-color:  #6a0dad;
 }
