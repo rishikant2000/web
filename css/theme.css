@@ -287,7 +287,7 @@ img.wt-block-image {
   transform: translate(-50%, -50%);
 }
 
-/* Form Toggles */
+
 .form-toggle {
   position: relative;
   cursor: pointer;
@@ -430,9 +430,7 @@ img.wt-block-image {
 .custom-control-input:disabled:checked ~ .custom-control-label::before {
   background-color: #d5d7dc;
 } 
-/*----------------------------------
-  Modals
-------------------------------------*/
+
 .modal-content {
   box-shadow: 0 0.25rem 0.6rem rgba(27, 30, 36, 0.07);
 }
@@ -443,9 +441,7 @@ img.wt-block-image {
   }
 }
 
-/*----------------------------------
-  Pager
-------------------------------------*/
+
 .pager-btn {
   min-width: 7.2rem;
 }
@@ -458,16 +454,12 @@ img.wt-block-image {
   min-width: 9.4rem;
 }
 
-/*----------------------------------
-  Popover
-------------------------------------*/
+
 .popover {
   box-shadow: 0 0.25rem 0.6rem rgba(27, 30, 36, 0.07);
 }
 
-/*----------------------------------
-  Progress Bars
-------------------------------------*/
+
 .progress--pill {
   border-radius: 6.25rem;
 }
@@ -484,9 +476,7 @@ img.wt-block-image {
   background-color: #490bf9;
 }
 
-/*----------------------------------
-  Tabs
-------------------------------------*/
+
 .nav-tabs--v1 .nav-item {
   margin-right: 3px;
 }
@@ -531,9 +521,7 @@ img.wt-block-image {
 	color: #fff;
 	letter-spacing: 8px;
 }
-/*----------------------------------
-  Blockquote-v1
-------------------------------------*/
+
 .blockquote-v1 {
   padding: 1.5rem 1.25rem;
   background-color: #f6f9fc;
@@ -551,9 +539,7 @@ img.wt-block-image {
   border-right: solid 0.25rem #490bf9;
 }
 
-/*----------------------------------
-  Blockquote-v2
-------------------------------------*/
+
 .wt-blockquote-v2 {
   position: relative;
   background-color: #fff;
@@ -589,9 +575,7 @@ img.wt-block-image {
   height: 3.75rem;
 }
 
-/*------------------------------------
-  Clients
-------------------------------------*/
+
 .wt-clients__item {
   border-width: 1px 0 1px 1px;
   border-color: #e6e7e9;
@@ -616,9 +600,7 @@ img.wt-block-image {
   opacity: 1;
 }
 
-/*------------------------------------
-  Mockup (Browser)
-------------------------------------*/
+
 .wt-browser-img {
   position: relative;
   top: -7px;
@@ -626,9 +608,7 @@ img.wt-block-image {
   border-bottom-right-radius: 0.5rem;
 }
 
-/*------------------------------------
-  Device (iPad)
-------------------------------------*/
+
 .wt-device {
   position: relative;
   width: 85%;
@@ -641,9 +621,7 @@ img.wt-block-image {
   box-shadow: 10px 15px 55px 15px rgba(140, 152, 164, 0.1);
 }
 
-/*------------------------------------
-  Icon
-------------------------------------*/
+
 .wt-icon {
   position: relative;
   z-index: 1;
@@ -669,10 +647,7 @@ img.wt-block-image {
   top: 90%;
 }
 
-/*------------------------------------
-  Icon Sizes
-------------------------------------*/
-/* Extra Small */
+
 .wt-icon--size--xs {
   width: 1.5rem;
   height: 1.5rem;
@@ -700,9 +675,7 @@ img.wt-block-image {
   font-size: 2.375rem;
 }
 
-/*------------------------------------
-  Icon Default Styles
-------------------------------------*/
+
 /* primary */
 .wt-icon-primary {
   color: color-yiq(#490bf9);
@@ -955,78 +928,10 @@ img.wt-block-image {
   border-color: #24292e;
 }
 
-/*------------------------------------
-  Icon Block
-------------------------------------*/
+
 .wt-icon-block__col {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
- 
-/*------------------------------------
-  Portfolio
-------------------------------------*/
-.portfolio-menu{
-	text-align:center;
-}
-.portfolio-menu ul li{
-	display:inline-block;
-	margin:0;
-	list-style:none;
-	padding:10px 15px;
-	cursor:pointer;
-	-webkit-transition:all 05s ease;
-	-moz-transition:all 05s ease;
-	-ms-transition:all 05s ease;
-	-o-transition:all 05s ease;
-	transition:all .5s ease;
-}
-
-.portfolio-item{
-	/*width:100%;*/
-}
-.portfolio-item .item{ 
-	float:left;
-	/* margin-bottom:10px; */
-}
-.portfolio-item .item .portfolio-item-hover{
-		opacity:0;
-		transition: all .4s ease-out;
-		 position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-    height: 100%;
-  overflow: hidden;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  color: #fff;
-  background-color: rgba(36,36,36,.9);
-  transition: all .2s ease;
-   opacity: 0;
-  transition: 0.6s;
-}
-.portfolio-item .item:hover .portfolio-item-hover{
-	opacity:.7;
-	transition: all .4s ease-out;
-}
-.wt-portfolio-controls__item {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.wt-portfolio-controls__item:not(:last-child)::after {
-  content: "|";
-  font-size: 0.71429rem;
-  margin: 0 4px;
-  position: relative;
-  top: -2px;
-  line-height: inherit;
-  display: inline-block;
-  vertical-align: middle;
-  color: transparent;
 }
 
 @media (min-width: 992px) {
@@ -1118,9 +1023,7 @@ img.wt-block-image {
     vertical-align: middle;
     border-top: none;
 }
-/*----------------------------------
-  Promo Block v1
-------------------------------------*/
+
 .wt-promo-block {
   position: relative;
   min-height: 100vh;
@@ -1149,50 +1052,6 @@ img.wt-block-image {
   }
 }
 
-/*------------------------------------
-  Pricing
-------------------------------------*/
-.wt-pricing {
-  background-color: #fff;
-}
-
-.wt-pricing__header {
-  position: relative;
-  padding: 2.5rem 1.5rem;
-}
-
-.wt-pricing__header-price {
-  display: block;
-  line-height: .84;
-}
-
-.wt-pricing__header-title {
-  opacity: .8;
-}
-
-.wt-pricing__header-decoration {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.wt-pricing__content {
-  padding: 1.5rem;
-}
-
-.wt-pricing__content .disabled .wt-icon {
-  color: #85778f;
-  background-color: rgba(133, 119, 143, 0.1);
-}
-
-.wt-pricing .disabled {
-  color: #85778f;
-}
-
-/*----------------------------------
-  Spaces
-------------------------------------*/
 .wt-section {
   padding-top: 8.25rem;
   padding-bottom: 8.25rem;
@@ -1206,16 +1065,12 @@ img.wt-block-image {
   padding-bottom: 8.25rem;
 }
 
-/*----------------------------------
-  Pull
-------------------------------------*/
+
 .wt-pull-half {
   transform: translate3d(0, -50%, 0);
 }
 
-/*----------------------------------
-  Links
-------------------------------------*/
+
 .wt-link {
   color: #1b1e24;
   text-decoration: none;
@@ -1226,9 +1081,7 @@ img.wt-block-image {
   text-decoration: none;
 }
 
-/*----------------------------------
-  Box Shadow
-------------------------------------*/
+
 .wt-box-shadow-sm {
   box-shadow: 0 0.2rem 1.25rem 0 rgba(27, 30, 36, 0.07);
 }
@@ -1237,18 +1090,14 @@ img.wt-block-image {
   box-shadow: 0 0.4rem 2.2rem 0 rgba(27, 30, 36, 0.1);
 }
 
-/*----------------------------------
-  Hero Image
-------------------------------------*/
+
 .wt-hero-img {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
 }
 
-/*----------------------------------
-  Overlays
-------------------------------------*/
+
 .wt-overlay {
   position: relative;
 }
@@ -1275,9 +1124,7 @@ img.wt-block-image {
   z-index: 1;
 }
 
-/*----------------------------------
-  Block Alignments
-------------------------------------*/
+
 .wt-ver-center {
   position: absolute;
   top: 50%;
@@ -1293,10 +1140,6 @@ img.wt-block-image {
   transform: translate3d(-50%, 0, 0);
 }
 
-/*----------------------------------
-  Typography
-------------------------------------*/
-
 /* Font Size */
 .wt-font-size-75 {
   font-size: 75%;
@@ -1306,7 +1149,7 @@ img.wt-block-image {
   font-size: 90%;
 }
 
-/* Letter Spacing */
+
 .wt-ls-xs-xs {
   letter-spacing: 1px;
 }
